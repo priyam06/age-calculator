@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity">
+
+
+    <!--    Second Edit text for today's date-->
+    <EditText
+        android:id="@+id/edit_text_view_bd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DD/MM/YYYY - Birth Date"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/bd_date_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edit_text_view_bd"
+        android:src="@drawable/ic_action_name" />
+
+    <!--    Second Edit text for today's date-->
+
+
+    <EditText
+        android:id="@+id/edit_text_view_td"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="Today's Date"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/td_date_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edit_text_view_td"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_action_name" />
+
+    <TextView
+        android:id="@+id/test_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="HI!" />
+
+    <Button
+        android:id="@+id/button_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Age" />
+</RelativeLayout>
